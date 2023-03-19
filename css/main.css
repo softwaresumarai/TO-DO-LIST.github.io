@@ -1,0 +1,29 @@
+/* Add custom CSS styles here */
+.card-header h4 {
+	text-align: center;
+	color: #fff;
+	background-color: #007bff;
+	padding: 10px;
+	border-radius: 5px 5px 0 0;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-primary:hover {
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+.list-group-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.list-group-item .delete-btn {
+	color: #dc3545;
+	cursor: pointer;
+}

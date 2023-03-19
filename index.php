@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 mt-5">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>To-Do List</h4>
+                    </div>
+                    <div class="card-body">
+                        <form id="todo-form">
+                            <div class="form-group">
+                                <label for="todo-input">Add a new task:</label>
+                                <input type="text" class="form-control" id="todo-input">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add Task</button>
+                        </form>
+                        <ul class="list-group mt-3" id="todo-list">
+
+                        </ul>
+                        <div class="mt-3">
+                            <button type="button" class="btn btn-danger" id="clear-btn">Clear All Tasks</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
